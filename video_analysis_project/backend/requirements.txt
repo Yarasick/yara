@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+ffmpeg-python
+whisper
+ultralytics
+opencv-python-headless
+numpy
+pandas

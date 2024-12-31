@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Відео Аналізатор</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Відео Аналізатор</h1>
+      <p>Завантажте відео для аналізу безпосередньо на сервері</p>
+    </header>
+    <main>
+      <form id="upload-form">
+        <input type="file" id="video-file" accept="video/mp4">
+        <button type="submit">Завантажити</button>
+      </form>
+      <div id="results">
+        <h2>Результати:</h2>
+        <div id="transcription"></div>
+        <div id="detections"></div>
+      </div>
+    </main>
+    <footer>
+      <p>© 2024 Відео Аналізатор. Усі права захищені.</p>
+    </footer>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
